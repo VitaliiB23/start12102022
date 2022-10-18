@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson2</title>
+</head>
+<body>
+    <!-- Використання input type= "text", "sumbit", "reset", "password" -->
+    <p>Fill in the cells:</p>
+    <form action="../02/img/1.jpg">
+        <div>
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder="Type your name" >
+        </div>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="Type your password" >
+        </div><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+    </form><br>
+    <hr>
+
+    <!-- Використання input type="radio" -->
+    <p>Choose your Web language:</p>
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JS">
+      <label for="javascript">JS</label>
+    </form>
+    <hr>
+
+    <!-- Використання type="checkbox"-->
+    <p>Choose which WEB language you know:</p>
+    <form>
+        <input type="checkbox" id="html" name="fav_language" value="HTML">
+        <label for="vehicle1"> HTML</label><br>
+        <input type="checkbox" id="css" name="fav_language" value="CSS">
+        <label for="vehicle2"> CSS</label><br>
+        <input type="checkbox" id="javascript" name="fav_language" value="JS">
+        <label for="vehicle2"> JS</label><br>
+      </form>
+    <hr>
+
+    <!-- Використання type="button"-->
+      <input type="button" onclick="alert('Hello!')" value="Click Me!">
+    <hr>
+
+    <!-- Використання type="color"-->
+    <form>
+        <label for="favcolor">Select your color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </form>
+    <hr>
+
+    <!-- Використання type="date"-->
+    <br>
+    <form>
+        <label for="datemin">Enter a date birth:</label>
+        <input type="date" id="datemin" name="datemin">
+    </form>
+    <br>
+    <hr>
+
+    <!-- Використання type="datetime-local"-->
+    <br>
+    <form>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+      </form>
+      <br>
+      <hr>
+
+
+
+
+</body>
+</html>
