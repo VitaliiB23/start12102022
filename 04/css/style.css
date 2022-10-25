@@ -31,7 +31,7 @@ height: 512px;
     padding: 32px 109px;
 }
 .flag{
-    border-top: 258px solid #2137FC;
+    border-top: 258px solid blue;
     background-color: yellow;
     position: absolute;
     z-index: 2;
