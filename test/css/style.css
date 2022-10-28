@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body, html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+header{
+    position: sticky;
+        top: 0;
+        padding: 15px;
+        vertical-align: middle;
+        z-index: 5;
+        background-color: #FFFFFF;
+}
+.logo-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ul li{list-style: none;}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
+    margin-right: 24px;
+}
+.link{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    color: #000000;
+  }
+
+.button{
+    float: right;
+    border: 1px solid #2203E4;
+    margin:  8px 0 0 8px;
+    background-color: #FFFFFF;
+  }
+  .button:hover {
+    background-color: #2203E4;
+  }
+  .button:hover button{
+    background-color: #2203E4;
+    color: #FFFFFF;
+  }
+  button{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    color: #2203E4;
+    background-color: #FFFFFF;
+  }
+
+.iphone-authors{
+    width: 1487px;
+}
+.iphone{
+    height: 700px;
+}
+.authors{
+    height: 447px;
+}
+.blue{
+    height: 702px;
+    background-color: #0062FF;
+}
+.demo{
+    height: 626px;
+}
+.opinions{
+    height: 499px;
+    background-color: #FFBE0B;
+}
+footer{
+    height: 938px;
+}
