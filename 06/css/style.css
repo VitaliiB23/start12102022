@@ -145,7 +145,7 @@
         content: url('../img/Vector.png');
         position: absolute;
         top: 5px;
-        left: 225px;
+        left: 180px;
     }
     .inner{
         display: flex;
