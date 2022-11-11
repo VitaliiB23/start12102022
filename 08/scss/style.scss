@@ -48,13 +48,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
-    // font-size: 16px;
-    // @media (max-width: 1100px){
-    //     font-size: 11px;
-    // }
-    // @media (max-width: 755px){
-    //     font-size: 9px;
-    // }
 }
 
 
@@ -108,7 +101,7 @@ background-color: $btn-color
             content: url('../img/basketA.png');
             position: absolute;
             top: -5px;
-            left: 90px;
+            left: 70px;
         }
     }
 
@@ -133,7 +126,7 @@ background-color: $btn-color
     border-radius: 50%;
     z-index: 3;
     display: none;
-    @media (max-width: 1650px){
+    @media (max-width: 1200px){
         display: block;
     }
 
@@ -166,7 +159,7 @@ label{
     width: 50px;
     height: 50px;
     display: none;
-    @media (max-width: 1650px){
+    @media (max-width: 1200px){
         display: block;
     }
 }
@@ -183,7 +176,7 @@ label{
     z-index: 2;
     display: none;
     transition: all 1.5s;
-    @media (max-width: 1650px){
+    @media (max-width: 1200px){
         display: block;
     }
 }
@@ -201,16 +194,10 @@ label{
     position: absolute;
     top: 0;
 }
-.logo-mobile,
-.mobile-cena{
+.logo-mobile{
     align-self: start;
 }
-// .mobile-cena{
-//     // margin-top: 50px;
-//     position: absolute;
-//     top: 20px;
-//     right: 10px;
-// }
+
 
 .mobile-menu-list{
     text-align: center;
@@ -234,12 +221,12 @@ label{
     position: relative;
     top: 0;
     right: 0;
-    background: url('../img/buns.png') 100% 100%/63% 80% no-repeat,url('../img/bunsE.png') 100% 100%/74% 86% no-repeat,url('../img/fon.png') center/cover no-repeat;
+    background: url('../img/buns.png') 100% 100%/63% 80% no-repeat,url('../img/bunsE.png') 100% 100%/74% 86% no-repeat,url('../img/fon.png') 0%/100% 100% no-repeat;
     min-height: 100vh;
     min-width: 100%;
-    padding: 8px 0 0 0;
+    padding: 8px 0 249px 0;
     @media (max-width: 755px){
-        background: url('../img/buns.png') 100% 100%/63% 55% no-repeat,url('../img/bunsE.png') 100% 100%/74% 66% no-repeat,url('../img/fon.png') center/cover no-repeat;
+        background: url('../img/buns.png') 100% 100%/70% 40% no-repeat,url('../img/bunsE.png') 100% 100%/74% 66% no-repeat,url('../img/fon.png') center/cover no-repeat;
     }
 
 
@@ -248,13 +235,13 @@ label{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @media (max-width: 1650px) {
+        @media (max-width: 1200px) {
             display: none;
         }
     }
 
     &-menu{
-        flex: 1 1 auto;
+        flex: 1px;
 
         &-list{
             display: flex;
@@ -263,7 +250,7 @@ label{
     }
 
     &-link{
-        font-size: 15px;
+        font-size: 12px;
         line-height: 18px;
         color: #FFFFFF;
         &:hover{
@@ -284,7 +271,7 @@ label{
         margin-left: 90px;
         margin-right: 19px;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 19px;
     }
 
@@ -292,7 +279,7 @@ label{
     &-text-block{
         margin-top: 6.25rem;
         width: 56%;
-        @media (max-width: 1650px){
+        @media (max-width: 1200px){
             margin-top: 35%;
         }
         @media (max-width: 755px){
@@ -307,6 +294,7 @@ label{
         // font-size: 4.5625rem;
         line-height: 74px;
         text-transform: uppercase;
+
         @media (max-width: 755px){
             font-size: 50px;
             line-height: 60px;
@@ -340,6 +328,10 @@ label{
         line-height: 22px;
         text-transform: capitalize;
         color: #151616;
+            &:hover{
+                background-color: rgb(248, 213, 131);
+                color: #FFFFFF;
+            }
         @media (max-width: 755px){
             font-size: 13px;
         }
@@ -522,7 +514,6 @@ label{
         }
     }
 }
-
 
 .info{
     padding: 50px 0 76px 0;
