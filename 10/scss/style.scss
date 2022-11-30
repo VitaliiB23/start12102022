@@ -56,6 +56,12 @@ $bg-color1: #F4ECE8;
     line-height: 160%;
     color: $color2;
 }
+.Articolo-text{
+    font-family: 'Noto Serif';
+    font-size: 10px;
+    line-height: 150%;
+    color: $color2;
+}
 .subtitle-text{
     font-weight: 700;
     font-size: $fz-1;
@@ -334,9 +340,32 @@ body{
 .bi:hover{
     color: #059EB3;
 }
-
-// ==second page==
-.news-news{
-    padding: 120px 0 30px 0;
+.home-roma:hover{
+    background-color: #F39200;
+}
+.home-vicenza:hover{
+    background-color: #059EB3;
+}
+.text-ho:hover{
+    color: #F39200;
 }
 
+
+// == 2 ==
+.news-news{
+    padding: 140px 0 30px 0;
+}
+
+// == 3 ==
+.altri-text{
+    font-size: $fz-1;
+    line-height: 130.4%;
+    color: $color1;
+}
+.altri-text-par{
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 160%;
+    color: $color2;
+    letter-spacing: 0.01em;
+    }
